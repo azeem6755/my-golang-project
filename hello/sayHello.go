@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"geekslayr.com/greetings"
 	"log"
+
+	"geekslayr.com/greetings"
 	"rsc.io/quote"
 )
 
@@ -11,7 +12,7 @@ func main() {
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 	// var message string
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Azeem")
 
 	if err != nil {
 		log.Fatal(err)
